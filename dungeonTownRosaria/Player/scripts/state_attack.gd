@@ -8,9 +8,8 @@ var attacking: bool = false
 @onready var walk: State = $"../Walk"
 
 @onready var animation_player: AnimationPlayer = $"../../AnimationPlayer"
-@onready var attack_animation: AnimationPlayer = $"../../Sprite2D/AttackEffectSprite/AnimationPlayer"
-
-@onready var audio_stream: AudioStreamPlayer2D = $"../../Audio/AudioStreamPlayer2D"
+@onready var audio_stream: AudioStreamPlayer2D = $"../../AudioStreamPlayer2D"
+@onready var attack_animation: AnimationPlayer = $"../../Sprite2D/AttackEffectSprite/AttackAnimationPlayer"
 
 #@onready var hurt_box: HurtBox = %AttackHurtBox
 
