@@ -1,7 +1,7 @@
 extends Node
 
-const PLAYER = preload("res://Player/player.tscn")
-const INVENTORY_DATA: InventoryData = preload("res://GUI/pause_menu/Inventory/player_inventory.tres")
+const PLAYER = preload("res://Player/ranger.tscn")
+#const INVENTORY_DATA: InventoryData = preload("res://GUI/pause_menu/Inventory/player_inventory.tres")
 
 signal interact_pressed
 

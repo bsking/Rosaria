@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://ddf4ggil2hw43"]
 
-[ext_resource type="Texture2D" uid="uid://b2kjxyhdibmsl" path="res://Assets/TileMaps/cobblestone_tiles_brown.png" id="1_j21yt"]
-[ext_resource type="Texture2D" uid="uid://c7pcdgfgs7oj8" path="res://Assets/TileMaps/cobblestone_tiles_grey.png" id="2_lr0qc"]
+[ext_resource type="Texture2D" uid="uid://b2kjxyhdibmsl" path="res://Sprites/TileMaps/cobblestone_tiles_brown.png" id="1_j21yt"]
+[ext_resource type="Texture2D" uid="uid://c7pcdgfgs7oj8" path="res://Sprites/TileMaps/cobblestone_tiles_grey.png" id="2_lr0qc"]
 [ext_resource type="Script" uid="uid://cgadpj53xg5xj" path="res://Maps/LevelTileMap.gd" id="4_fh4je"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jqutv"]

@@ -22,6 +22,7 @@ config/icon="res://icon.svg"
 [autoload]
 
 GlobalLevelManager="*uid://0ywswgj2amfi"
+GlobalPlayerManager="*uid://dw7s7xikwvtg7"
 
 [display]
 
@@ -64,6 +65,7 @@ attack={
 2d_physics/layer_1="ground"
 2d_physics/layer_2="walls"
 2d_physics/layer_3="player"
+2d_physics/layer_4="NPC"
 
 [rendering]
 
