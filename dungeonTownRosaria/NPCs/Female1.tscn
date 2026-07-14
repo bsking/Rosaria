@@ -9,7 +9,7 @@
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_hnvm5"]
 radius = 9.0
-height = 32.0
+height = 38.0
 
 [sub_resource type="Animation" id="Animation_ktwoo"]
 length = 0.001
@@ -158,8 +158,7 @@ hframes = 8
 vframes = 12
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=991696022]
-visible = false
-position = Vector2(0, -12)
+position = Vector2(0, -10)
 shape = SubResource("CapsuleShape2D_hnvm5")
 
 [node name="ShadowSprite2D" type="Sprite2D" parent="." unique_id=1748699434]

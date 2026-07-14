@@ -6,11 +6,13 @@ const DIR_4 = [Vector2.RIGHT, Vector2.DOWN, Vector2.LEFT, Vector2.UP]
 
 @export var hp: int = 3
 @export var side_direction: int = 0
+@export var npc_type = 0
 
 var cardinal_direction: Vector2 = Vector2.DOWN
 var direction: Vector2 = Vector2.ZERO
 var player = Player
 var invulnerable: bool = false
+var _timer:float = -1.0
 
 @onready var npc_state_machine: Node = $NPCStateMachine
 @onready var sprite: Sprite2D = $Sprite2D
@@ -22,6 +24,12 @@ func _ready() -> void:
 	pass
 	
 func _physics_process(_delta: float) -> void:
+	if is_on_wall() and _timer < 0.0 and npc_type == 0:
+		_timer = 1.0
+		npc_state_machine.ChangeState(npc_state_machine.states[0])
+	
+	if _timer > 0.0:
+		_timer = _timer - _delta
 	move_and_slide()
 	
 func Set_Direction(_new_direction: Vector2) -> bool:

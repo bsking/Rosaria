@@ -9,7 +9,7 @@ var player: Player
 var player_spawned: bool = false
 
 func _ready() -> void:
-	add_player_instance()
+	#add_player_instance()
 	await get_tree().create_timer(0.2).timeout
 	player_spawned = true
 	

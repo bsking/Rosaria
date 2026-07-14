@@ -26,7 +26,8 @@ script = null
 position = Vector2(473, 449)
 
 [node name="BlueFarmer" parent="." unique_id=1763231627 instance=ExtResource("4_kj4yc")]
-position = Vector2(380, 461)
+show_behind_parent = true
+position = Vector2(689, 603)
 
 [node name="Male1" parent="." unique_id=761860418 instance=ExtResource("5_cyvue")]
 position = Vector2(915, 467)
@@ -43,7 +44,7 @@ position = Vector2(446, 203)
 [node name="Male4" parent="." unique_id=1465966928 instance=ExtResource("9_1ctdx")]
 position = Vector2(386, 670)
 
-[node name="Femail2" parent="." unique_id=202923694 instance=ExtResource("10_ir4ny")]
+[node name="Female2" parent="." unique_id=202923694 instance=ExtResource("10_ir4ny")]
 position = Vector2(232, 389)
 
 [node name="Female3" parent="." unique_id=1230969200 instance=ExtResource("11_4rtsd")]
